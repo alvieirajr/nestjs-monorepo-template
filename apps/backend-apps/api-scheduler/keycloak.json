@@ -1,0 +1,13 @@
+{
+  "realm": "sistemas",
+  "auth-server-url": "",
+  "ssl-required": "external",
+  "resource": "",
+  "credentials": {
+    "secret": ""
+  },  
+  "principal-attribute": "preferred_username",
+  "confidential-port": 0,
+
+  "policy-enforcer": {}
+}

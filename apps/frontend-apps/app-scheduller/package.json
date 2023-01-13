@@ -1,0 +1,47 @@
+{
+  "name": "@app/app-scheduller",
+  "version": "v0.0.1",
+  "description": "Simple React App on at MonoRepo",
+  "scripts": {
+    "format": "../../../tools/eslint/node_modules/.bin/prettier --write \"**/*.{ts, js, json}\"",
+    "test": "../../../node_modules/jest/bin/jest.js --maxWorkers=50%",
+    "lint": "yarn format && ../../../../tools/eslint/node_modules/.bin/eslint \"src/**/*.{ts, js, json}\" --fix",
+    "start": "BUILD_PATH='../../../dist/apps/frontend-apps/app-scheduller react-scripts start",
+    "build": "BUILD_PATH='../../../dist/apps/frontend-apps/app-scheduller react-scripts build",
+    "eject": "BUILD_PATH='../../../dist/apps/frontend-apps/app-scheduller react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "app-scheduller",
+      "app-scheduller/jest"
+    ]
+  },
+  "author": {
+    "name": "Antônio Vieira",
+    "email": "alvieirajr@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "5.6.0",
+    "react-scripts": "5.0.1",
+    "keycloak-js": "^20.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "typescript": "3.2.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
