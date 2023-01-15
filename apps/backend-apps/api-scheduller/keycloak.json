@@ -1,10 +1,10 @@
 {
   "realm": "sistemas",
-  "auth-server-url": "https://keycloakdmz.tce.pe:8443/auth/",
+  "auth-server-url": "",
   "ssl-required": "external",
   "resource": "sisouv",
   "credentials": {
-    "secret": "e94db5fd-0bdb-4315-9ed1-765e917b13b0"
+    "secret": ""
   },  
   "principal-attribute": "preferred_username",
   "confidential-port": 0,
