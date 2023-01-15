@@ -1,0 +1,17 @@
+{
+  "name": "@app/api-scheduller",
+  "version": "v0.0.1",
+  "description": "Simple Backend Template on at MonoRepo",
+  "main": "main",
+  "scripts": {
+    "format": "../../../tools/eslint/node_modules/.bin/prettier --write \"**/*.{ts, js, json}\"",
+    "test": "../../../node_modules/jest/bin/jest.js --maxWorkers=50%",
+    "lint": "yarn format && ../../../tools/eslint/node_modules/.bin/eslint \"src/**/*.{ts, js, json}\" --fix"
+  },
+  "author": {
+    "name": "Antônio Vieira",
+    "email": "alvieirajr@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

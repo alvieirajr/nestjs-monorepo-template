@@ -1,0 +1,8 @@
+{
+  "realm": "sistemas",
+  "auth-server-url": "https://keycloakdmz.tce.pe:8443/auth/",
+  "ssl-required": "external",
+  "resource": "sisouv",
+  "public-client": true,
+  "confidential-port": 0
+}
